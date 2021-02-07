@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
   }
 
   interface API_CALL {
-    @GET("/photosss")
+    @GET("/photos")
     fun getPhotos(): Call<List<JsonObject>>
   }
 
